@@ -543,6 +543,8 @@ a {
   .why-container {
     display: flex;
    flex-direction: column;
+   padding:30px;
+   /* padding: auto 50px; */
     /* align-items: flex-start; */
     /* flex-wrap: wrap; */
   }
@@ -554,14 +556,14 @@ a {
 
   
 .why-item h4 {
-  text-align: center;
+  text-align: left;
   margin-bottom: 0;
 
 }
 
 .why-item p {
-  text-align: center;
-  margin-bottom: 20px;
+  text-align: left;
+  margin-bottom: 40px;
 
 }
 
@@ -585,7 +587,7 @@ a {
   }
 
   .grid-container {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
